@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #333; /* Text color */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transition for text color */
+}
+
+/* Create the underline */
+.btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15px; /* Starting width */
+    height: 2px; /* Adjust the underline height as needed */
+    background-color: #F26649; /* Adjust the underline color as needed */
+    transition: width 0.3s ease; /* Transition for width */
+}
+
+/* Expand the underline on hover */
+.btn:hover::before {
+    width: 100%; /* Expanded width */
+}
+
