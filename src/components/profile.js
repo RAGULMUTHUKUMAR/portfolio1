@@ -9,7 +9,7 @@ import {
   FaGithub
 } from "react-icons/fa6"; // Correct the import path
 import profileImg from "../images/115291.jpg";
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import pdf from "./RAGUL M .pdf";
 import { FaLinkedin, } from "react-icons/fa";
 
@@ -40,13 +40,13 @@ const Profile = ({ profile, setProfile }) => {
                 alt="img"
               />
               <h1 className="text-3xl font-bold">RAGUL M</h1>
-              <Typed
+              {/* <Typed
           strings={["Web Developer", "Full-Stack Developer","UI/UX Designer"]}
           typeSpeed={50}
           backSpeed={25}
           loop
           className="text-[#F26649] text-2xl font-semibold"
-        />
+        /> */}
               <p className="text-center text-xs p-2">
                 I'm a passionate Full-Stack Developer with a knack for crafting
                 seamless digital experiences.

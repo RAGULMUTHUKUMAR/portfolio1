@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import {
   FaSquareFacebook,
   FaSquareInstagram,
@@ -23,13 +23,13 @@ const ProfileLg = () => {
           alt="img"
         />
         <h1 className="text-2xl font-bold">RAGUL M</h1>
-        <Typed
+        {/* <Typed
           strings={["Web Developer", "Full-Stack Developer", "UI/UX Designer"]}
           typeSpeed={50}
           backSpeed={25}
           loop
           className="text-[#F26649] text-2xl font-semibold"
-        />
+        /> */}
         <p className=" ">
           I'm a passionate Full-Stack Developer with a knack for crafting
           seamless digital experiences.
