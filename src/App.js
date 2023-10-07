@@ -15,20 +15,17 @@ import Menubar from "./Menubar";
 // import Profile from "./components/profile";
 import ProfileLg from "./components/ProfileLg";
 
-
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
 
-
-
-  const   home = useRef()
-  const   about = useRef()
-  const   education = useRef()
-  const   project = useRef()
-  const   resume = useRef()
-  const   contact = useRef()
+  const home = useRef();
+  const about = useRef();
+  const education = useRef();
+  const project = useRef();
+  const resume = useRef();
+  const contact = useRef();
 
   return (
     <main>
@@ -48,15 +45,22 @@ function App() {
 
       <div className="hidden xl:flex  xl:bg-[#F5F3EB] ">
         <div className="xl:w-[20%] ">
-         <Menubar home={home}  about={about} education={education} project={project} resume={resume} contact={contact}/>
+          <Menubar
+            home={home}
+            about={about}
+            education={education}
+            project={project}
+            resume={resume}
+            contact={contact}
+          />
         </div>
         <div className="xl:w-[50%] p-5 bg-[#F5F3EB]">
-          <Navbar  />
-          <Home home ={home} />
+          <Navbar />
+          <Home home={home} />
           <About about={about} />
           <Services />
-          <Resume resume={resume}/>
-          <Project  />
+          <Resume resume={resume} />
+          <Project />
           <Education education={education} />
           <Filter project={project} />
           <Contact contact={contact} />

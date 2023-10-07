@@ -1,17 +1,11 @@
 import React from "react";
-import {
-  FaXmark,
-  FaSquareFacebook,
-  FaSquareInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaDownload,
-  FaGithub
-} from "react-icons/fa6"; // Correct the import path
+import { FaXmark, FaTwitter, FaDownload, FaGithub } from "react-icons/fa6"; // Correct the import path
 import profileImg from "../images/115291.jpg";
-// import Typed from 'react-typed';
+import Typed from "react-typed";
 import pdf from "./RAGUL M .pdf";
-import { FaLinkedin, } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { GrInstagram } from "react-icons/gr";
 
 const Profile = ({ profile, setProfile }) => {
   function close() {
@@ -40,37 +34,55 @@ const Profile = ({ profile, setProfile }) => {
                 alt="img"
               />
               <h1 className="text-3xl font-bold">RAGUL M</h1>
-              {/* <Typed
-          strings={["Web Developer", "Full-Stack Developer","UI/UX Designer"]}
-          typeSpeed={50}
-          backSpeed={25}
-          loop
-          className="text-[#F26649] text-2xl font-semibold"
-        /> */}
+              <Typed
+                strings={[
+                  "Web Developer",
+                  "Full-Stack Developer",
+                  "UI/UX Designer",
+                ]}
+                typeSpeed={50}
+                backSpeed={25}
+                loop
+                className="text-[#F26649] text-2xl font-semibold"
+              />
               <p className="text-center text-xs p-2">
                 I'm a passionate Full-Stack Developer with a knack for crafting
                 seamless digital experiences.
               </p>
               <div className="flex gap-[50px] text-3xl">
-          <a href="https://www.linkedin.com/in/ragul9360/" target="_blank" rel="noreferrer">
-            <FaLinkedin className="text-blue-600"/>
-          </a>
-          <a href="https://github.com/RAGULMUTHUKUMAR" target="_blank" rel="noreferrer">
-            <FaGithub className="text-black"/>
-          </a>
-        </div>
-              <div className="flex gap-10 text-xl mt-52 ">
-                <FaSquareFacebook className="text-[#F26649]" />
-                <FaSquareInstagram className="hover:text-[#F26649]" />
-                <FaTwitter className="hover:text-[#F26649]" />
-                <FaYoutube className="hover:text-[#F26649]" />
+                <a
+                  href="https://www.linkedin.com/in/ragul9360/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
+                <a
+                  href="https://github.com/RAGULMUTHUKUMAR"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
               </div>
-              <button className="bg-[#F26649] w-[200px] p-4 border-[#F26649] rounded-[50px] flex justify-center items-center gap-5">
-                RESUME
-                <a href={pdf} target="_blank" rel="noreferrer">
-            <FaDownload />
-          </a>
-              </button>
+              <div className="flex gap-10 text-xl mt-40 ">
+                <a
+                  href="https://www.instagram.com/lugar128/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrInstagram className="hover:text-[#F26649]" />
+                </a>
+                <SiGmail className="hover:text-[#F26649]" />
+                <FaWhatsapp className="hover:text-[#F26649]" />
+                <FaTwitter className="hover:text-[#F26649]" />
+              </div>
+              <a href={pdf} target="_blank" rel="noreferrer">
+                <button className="bg-[#F26649] w-[200px] p-4 border-[#F26649] rounded-[50px] flex justify-center items-center gap-5">
+                  RESUME
+                  <FaDownload />
+                </button>
+              </a>
             </div>
           </div>
         ) : (

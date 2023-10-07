@@ -3,7 +3,7 @@ function Map() {
     <div>
       <h1 className="font-bold text-4xl p-5 mt-[100px]">Google Map</h1>
       <div className="flex items-center justify-center w-full">
-         <div  className="mt-5 mb-14">
+        <div className="mt-5 mb-14">
           <iframe
             className="  md:w-[750px] md:h-[500px]  xl:w-[900px] xl:h-[500px]"
             width="100%"
@@ -18,9 +18,8 @@ function Map() {
               Population Estimator map
             </a>
           </iframe>
-         </div>
-       </div>
-      
+        </div>
+      </div>
     </div>
   );
 }

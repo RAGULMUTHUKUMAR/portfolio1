@@ -2,7 +2,12 @@ function Education({ education }) {
   return (
     <div ref={education} id="education">
       <p className="font-bold text-4xl p-5 mt-[100px]">Education</p>
-      <div className="w-[50%] shadow-2xl p-5 rounded-xl">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="600"
+        data-aos-easing="linear"
+        className="w-[50%] shadow-2xl p-5 rounded-xl"
+      >
         <h2 className="font-medium text-sm p-5">SSLC</h2>
         <p className="text-gray-500 ml-5 leading-[25px] text-sm font-light">
           ST. Philominal Hr. Sec.School-SSLC Kulumur-621804
@@ -12,7 +17,12 @@ function Education({ education }) {
         </h1>
       </div>
       <br />
-      <div className="flex justify-end mr-5">
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="600"
+        data-aos-easing="linear"
+        className="flex justify-end mr-5"
+      >
         <div className="w-[50%] shadow-2xl p-5 rounded-xl">
           <h2 className="font-medium text-sm p-5">HSC</h2>
           <p className="text-gray-500 ml-5 leading-[25px] text-sm font-light">
@@ -24,8 +34,13 @@ function Education({ education }) {
         </div>
       </div>
       <br />
-      <div className="w-[50%] shadow-2xl p-5 rounded-xl">
-        <h2 className="font-medium  text-sm p-5">UNDERGRADUATE(UG) B.E-ECE</h2>
+      <div
+        data-aos="zoom-in-up"
+        data-aos-duration="600"
+        data-aos-easing="linear"
+        className="w-[50%] shadow-2xl p-5 rounded-xl"
+      >
+        <h2 className="font-medium  text-sm p-5">UNDERGRADUATE B.E-ECE</h2>
         <p className="text-gray-500 ml-5 leading-[25px] text-sm font-light">
           University College Of Engineering Tindivanam-604001
         </p>

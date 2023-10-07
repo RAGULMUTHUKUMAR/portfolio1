@@ -3,19 +3,16 @@ import { AiFillHome } from "react-icons/ai";
 import { RiContactsFill } from "react-icons/ri";
 import { IoSchool } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";
-import { MdBusinessCenter,  } from "react-icons/md";
+import { MdBusinessCenter } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { Link } from "react-scroll";
 
-
-
-const Menubar = ({home,about,education,project,resume,contact}) => {
-
+const Menubar = ({ home, about, education, project, resume, contact }) => {
   function handleScroll(ref) {
     window.scrollTo({
-      top: ref.current.offsetTop- 40,
-      behavior: "smooth"
-    })
+      top: ref.current.offsetTop - 40,
+      behavior: "smooth",
+    });
   }
 
   return (
@@ -29,48 +26,75 @@ const Menubar = ({home,about,education,project,resume,contact}) => {
             hashSpy={true}
             duration={1000}
           >
-            <AiFillHome className="hover:text-[#F26649]" onClick={()=>handleScroll(home)} />
+            <AiFillHome
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(home)}
+            />
           </Link>
 
           <Link
-          to="about"
-          spy={true}
-          smooth={true}
-          hashSpy={true}
-          duration={1000}>
-            <RiContactsFill className="hover:text-[#F26649]" onClick={()=>handleScroll(about)} />
+            to="about"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={1000}
+          >
+            <RiContactsFill
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(about)}
+            />
           </Link>
 
-          <Link to="education"
-           spy={true}
-           smooth={true}
-           hashSpy={true}
-           duration={1000}>
-            <IoSchool className="hover:text-[#F26649]"  onClick={()=>handleScroll(education)} />
+          <Link
+            to="education"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={1000}
+          >
+            <IoSchool
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(education)}
+            />
           </Link>
 
-          <Link to="project"
-           spy={true}
-           smooth={true}
-           hashSpy={true}
-           duration={1000}>
-            <MdBusinessCenter className="hover:text-[#F26649]"  onClick={()=>handleScroll(project)}  />
+          <Link
+            to="project"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={1000}
+          >
+            <MdBusinessCenter
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(project)}
+            />
           </Link>
 
-          <Link to="resume"
-           spy={true}
-           smooth={true}
-           hashSpy={true}
-           duration={1000}>
-            <FaLightbulb className="hover:text-[#F26649]"onClick={()=>handleScroll(resume)} />
+          <Link
+            to="resume"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={1000}
+          >
+            <FaLightbulb
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(resume)}
+            />
           </Link>
 
-          <Link to="contact"
-           spy={true}
-           smooth={true}
-           hashSpy={true}
-           duration={1000}>
-            <FaPhone className="hover:text-[#F26649]" onClick={()=>handleScroll(contact)}/>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            duration={1000}
+          >
+            <FaPhone
+              className="hover:text-[#F26649]"
+              onClick={() => handleScroll(contact)}
+            />
           </Link>
         </ul>
       </div>
