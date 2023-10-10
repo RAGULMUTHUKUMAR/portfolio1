@@ -8,6 +8,7 @@ function Map() {
             className="  md:w-[750px] md:h-[500px]  xl:w-[900px] xl:h-[500px]"
             width="100%"
             height="600"
+            title="map"
             frameborder="0"
             scrolling="no"
             marginheight="0"

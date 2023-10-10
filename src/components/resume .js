@@ -1,11 +1,12 @@
 /* eslint-disable jsx-a11y/heading-has-content */
+import skills from "./skills";
 function Resume({ resume }) {
   return (
     <div id="resume" ref={resume}>
-      <h1 className="font-bold text-4xl ml-5 mt-[100px]">Resume</h1>
-      <h1 className="font-bold text-xl ml-5 mt-[50px]">My skills</h1>
+      <h1 className="font-bold text-4xl ml-5 mt-[100px]">My skills</h1>
+      {/* <h1 className="font-bold text-xl ml-5 mt-[50px]">My skills</h1> */}
       <div>
-        <section className=" p-5 w-full  mt-5 md:w-[80%] ">
+        {/* <section className=" p-5 w-full  mt-5 md:w-[80%] ">
           <div
             data-aos="zoom-in-up"
             data-aos-duration="1000"
@@ -155,7 +156,15 @@ function Resume({ resume }) {
               <h2 className="w-[80%] h-[7px] md:h-1 bg-[#F26649] rounded-lg "></h2>
             </div>
           </div>
-        </section>
+        </section> */}
+        <div  className="grid grid-cols-2 place-items-center gap-10 mt-10 md:grid-cols-3 md:p-5 ">
+          {skills.map((skill)=>(
+            <img src={skill.skill} alt="skillimage" key={skill.id} data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-easing="linear" className="w-[100px] h-[100px] shadow-neutral-800 shadow-2xl rounded-md"/>
+          ))}
+
+        </div>
       </div>
     </div>
   );
