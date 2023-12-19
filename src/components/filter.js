@@ -38,7 +38,7 @@ function Filter({ project }) {
                 </a>
               </div>{" "}
             </h1>
-            <h1 className="absolute -bottom-2/4 left-[35%] text-gray-200 font-semibold text-sm opacity-0 group-hover:opacity-100 group-hover:bottom-2/4 transition-all duration-500 ">
+            <h1 className="absolute -bottom-2/4 left-[35%] text-gray-200 font-semibold text-sm opacity-0 group-hover:opacity-100 group-hover:bottom-2/4 transition-all duration-500">
               {" "}
               {item.Branding}
             </h1>
