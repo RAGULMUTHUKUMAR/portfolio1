@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import { FaDownload, FaGithub, FaTwitter } from "react-icons/fa6"; // Correct the import path
 import profileImg from "../images/1000070247.jpg";
-import pdf from "./RAGUL M .pdf";
+import pdf2 from "./Web Development .pdf";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { GrInstagram } from "react-icons/gr";
@@ -56,7 +56,7 @@ const ProfileLg = () => {
           <FaWhatsapp className="hover:text-[#F26649]" />
           <FaTwitter className="hover:text-[#F26649]" />
         </div>
-        <a href={pdf} target="_blank" rel="noreferrer">
+        <a href={pdf2} target="_blank" rel="noreferrer">
           <button className="bg-[#F26649] w-[200px]  p-4 border-[#F26649] rounded-[50px] flex justify-center items-center gap-5">
             RESUME
             <FaDownload />
