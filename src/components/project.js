@@ -48,9 +48,12 @@ function Project() {
         <h1 className="text-gray-500 leading-[25px] ml-5 text-sm font-semibold">
           Individual Project
         </h1>
-        <h2 className="font-medium text-sm p-5">Headphone Hero</h2>
+        <h2 className="font-medium text-sm p-5">BOOMBOX (Using Figma)</h2>
         <p className="text-gray-500 ml-5 leading-[25px] text-sm font-light">
-          Designing Excellence with Figma
+          Designed and developed 'Boombox' using Figma for UI/UX and front-end
+          development. The project showcases my skills in creating visually
+          appealing digital experiences, emphasizing a seamless fusion of design
+          and development expertise.
         </p>
       </div>
     </div>
