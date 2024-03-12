@@ -49,30 +49,33 @@ function Contact({ contact }) {
       <div className="w-[300px] h-[2px] mt-5 bg-neutral-200 mx-auto flex justify-center items-center xl:w-[800px]"></div>
       <br />
 
+      {/* ------------------------get in touch--------------------------------- */}
+
       <div>
         <h1 className="font-bold text-4xl ml-5 mt-[50px]">Get In Touch</h1>
+        <form>
+          <div className="xl:grid xl:grid-cols-2">
+            <input
+              type="text"
+              placeholder="Name*"
+              className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[350px] lg:w-[450px] xl:p-3 xl:w-[300px]"
+            ></input>
+            <input
+              type="text"
+              placeholder="Email*"
+              className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[340px] lg:w-[450px] xl:p-3 xl:w-[300px]"
+            ></input>
 
-        <div className="xl:grid xl:grid-cols-2">
-          <input
-            type="text"
-            placeholder="Name*"
-            className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[350px] lg:w-[450px] xl:p-3 xl:w-[400px]"
-          ></input>
-          <input
-            type="text"
-            placeholder="Email*"
-            className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[340px] lg:w-[450px] xl:p-3 xl:w-[400px]"
-          ></input>
+            <textarea
+              placeholder="Message"
+              className="p-2 ml-5 mt-10 w-[290px] h-[150px] md:w-[710px] lg:w-[925px] xl:w-[620px]"
+            ></textarea>
+          </div>
 
-          <textarea
-            placeholder="Message"
-            className="p-2 ml-5 mt-10 w-[290px] h-[150px] md:w-[710px] lg:w-[925px] xl:w-[850px]"
-          ></textarea>
-        </div>
-
-        <button className="bg-[#F26649] text-white p-3 border-[#F26649] rounded-[5px] mt-8 ml-5 w-[190px] shadow-[#F26649] shadow-2xl">
-          SEND IT
-        </button>
+          <button className="bg-[#F26649] text-white p-3 border-[#F26649] rounded-[5px] mt-8 ml-5 w-[190px] shadow-[#F26649] shadow-2xl">
+            <input type="submit" value="Send" className="font-[900]" />
+          </button>
+        </form>
       </div>
 
       <div className="w-[300px] mt-[100px] h-[2px] bg-neutral-200 mx-auto flex justify-center items-center xl:w-[800px]"></div>

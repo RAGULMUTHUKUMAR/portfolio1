@@ -7,9 +7,11 @@ function Home({ home }) {
           I'm a FullStack Developer and web designer creating awesome and
           effective visual identities for companies.
         </p>
+        <a href="mailto:ragulluar4@gmail.com">
         <button className="bg-[#F26649] text-white p-4 border-[#F26649] rounded-[10px] mt-8 w-[190px] shadow-[#F26649] shadow-2xl">
           HIRE ME
         </button>
+        </a>
       </div>
     </div>
   );

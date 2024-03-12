@@ -1,7 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { FaDownload, FaGithub, FaTwitter } from "react-icons/fa6"; // Correct the import path
-import profileImg from "../images/1000070247.jpg";
+import profileImg from "../images/LUGAR.jpg";
 import pdf2 from "./Web Development .pdf";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -10,9 +10,9 @@ import { GrInstagram } from "react-icons/gr";
 const ProfileLg = () => {
   return (
     <div className="fixed top-0 right-0">
-      <div className=" p-8 w-[450px] h-[100vh] text-center flex flex-col items-center  gap-5 bg-[#241F21] text-white ">
+      <div className=" p-8 w-[400px] h-[100vh] text-center flex flex-col items-center  gap-5 bg-[#241F21] text-white ">
         <img
-          className="border-8 border-[#4d2d29] rounded-full w-[150px]"
+          className="border-8 border-[#4d2d29] h-[150px] object-cover rounded-full w-[150px]"
           src={profileImg}
           alt="img"
         />
@@ -44,7 +44,7 @@ const ProfileLg = () => {
             <FaGithub />
           </a>
         </div>
-        <div className="flex gap-[60px] mt-[250px] text-xl">
+        <div className="flex gap-[60px] mt-[90px] text-xl">
           <a
             href="https://www.instagram.com/lugar128/"
             target="_blank"
@@ -52,8 +52,9 @@ const ProfileLg = () => {
           >
             <GrInstagram className="hover:text-[#F26649]" />
           </a>
-          <SiGmail className="hover:text-[#F26649]" />
-          <FaWhatsapp className="hover:text-[#F26649]" />
+          <a href="mailto:ragulluar4@gmail.com"><SiGmail className="hover:text-[#F26649]" /></a>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/919360787705" target="_blank" rel="noreferrer"><FaWhatsapp className="hover:text-[#F26649]" /></a>
+          
           <FaTwitter className="hover:text-[#F26649]" />
         </div>
         <a href={pdf2} target="_blank" rel="noreferrer">

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaXmark, FaTwitter, FaDownload, FaGithub } from "react-icons/fa6"; // Correct the import path
-import profileImg from "../images/115291.jpg";
+import profileImg from "../images/LUGAR.jpg";
 import Typed from "react-typed";
 import pdf1 from "./Web Development .pdf";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
@@ -29,7 +29,7 @@ const Profile = ({ profile, setProfile }) => {
             />
             <div className="flex flex-col justify-center items-center gap-5">
               <img
-                className="border-8 border-[#4d2d29] rounded-full w-[150px]"
+                className="border-8 object-cover h-[150px] border-[#4d2d29] rounded-full w-[150px]"
                 src={profileImg}
                 alt="img"
               />

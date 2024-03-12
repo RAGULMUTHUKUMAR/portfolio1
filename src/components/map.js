@@ -5,7 +5,7 @@ function Map() {
       <div className="flex items-center justify-center w-full">
         <div className="mt-5 mb-14">
           <iframe
-            className="  md:w-[750px] md:h-[500px]  xl:w-[900px] xl:h-[500px]"
+            className="  md:w-[750px] md:h-[450px] xl:w-[620px]"
             width="100%"
             height="600"
             title="map"

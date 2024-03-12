@@ -6,7 +6,7 @@ function Project() {
         data-aos="zoom-in-up"
         data-aos-duration="600"
         data-aos-easing="linear"
-        className="w-[50%] shadow-2xl p-5 rounded-xl"
+        className="w-[50%] shadow-2xl p-5 rounded-xl ml-[20px]"
       >
         <h1 className="text-gray-500 leading-[25px] ml-5 text-sm font-semibold">
           College Project
@@ -43,7 +43,7 @@ function Project() {
         data-aos="zoom-in-up"
         data-aos-duration="600"
         data-aos-easing="linear"
-        className="w-[50%] shadow-2xl p-5 rounded-xl"
+        className="w-[50%] shadow-2xl p-5 rounded-xl ml-[20px]"
       >
         <h1 className="text-gray-500 leading-[25px] ml-5 text-sm font-semibold">
           Individual Project
