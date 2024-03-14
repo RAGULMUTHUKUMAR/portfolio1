@@ -73,8 +73,8 @@ const Profile = ({ profile, setProfile }) => {
                 >
                   <GrInstagram className="hover:text-[#F26649]" />
                 </a>
-                <SiGmail className="hover:text-[#F26649]" />
-                <FaWhatsapp className="hover:text-[#F26649]" />
+                <a href="mailto:ragulluar4@gmail.com"><SiGmail className="hover:text-[#F26649]" /></a>
+                <a aria-label="Chat on WhatsApp" href="https://wa.me/919360787705" target="_blank" rel="noreferrer"><FaWhatsapp className="hover:text-[#F26649]" /></a>
                 <FaTwitter className="hover:text-[#F26649]" />
               </div>
               <a href={pdf1} target="_blank" rel="noreferrer">

@@ -15,9 +15,9 @@ function Contact({ contact }) {
           data-aos="flip-right"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px]"
+          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px] xl:w-[180px] xl:h-[100px]"
         >
-          <div className="text-gray-500  font-light text-sm flex items-center gap-2 mr-5 justify-center">
+          <div className="text-gray-500  font-light text-sm flex items-center gap-2 mr-5 xl:mr-0 justify-center">
             <FaPhone className="text-black" />
             (+91) 9360787705
           </div>
@@ -26,7 +26,7 @@ function Contact({ contact }) {
           data-aos="flip-right"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px]"
+          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px] xl:w-[200px] xl:h-[100px]"
         >
           <div className="text-gray-500  font-light text-sm flex items-center gap-2 justify-center">
             <GoMail className="text-black" />
@@ -37,9 +37,9 @@ function Contact({ contact }) {
           data-aos="flip-right"
           data-aos-duration="1000"
           data-aos-easing="linear"
-          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px]"
+          className="w-[237px] h-[100px] border-[#F26649] border rounded-[15px] flex items-center justify-center lg:h-[150px] xl:w-[180px] xl:h-[100px]"
         >
-          <div className="text-gray-500  font-light text-sm flex items-center gap-2 mr-6 justify-center">
+          <div className="text-gray-500  font-light text-sm flex items-center gap-2 mr-6 xl:mr-0 justify-center">
             <FaLocationDot className="text-black" />
             Ariyalur,TamilNadu
           </div>
