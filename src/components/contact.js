@@ -1,6 +1,26 @@
 import { FaPhone, FaLocationDot } from "react-icons/fa6";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { GoMail } from "react-icons/go";
 function Contact({ contact }) {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_7kpxk6q', 'template_1faegxi', form.current, {
+        publicKey: '547ewjoWPG2HmZ2Fv',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <div id="contact" ref={contact}>
       <h1 className="font-bold text-4xl p-5 mt-[100px]">Contact</h1>
@@ -53,21 +73,24 @@ function Contact({ contact }) {
 
       <div>
         <h1 className="font-bold text-4xl ml-5 mt-[50px]">Get In Touch</h1>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <div className="xl:grid xl:grid-cols-2">
             <input
               type="text"
               placeholder="Name*"
+              name="user_Name"
               className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[350px] lg:w-[450px] xl:p-3 xl:w-[300px]"
             ></input>
             <input
               type="text"
               placeholder="Email*"
+              name="user_Email"
               className="p-2 ml-5 mt-10 w-[290px]  border rounded-[5px] md:w-[340px] lg:w-[450px] xl:p-3 xl:w-[300px]"
             ></input>
 
             <textarea
               placeholder="Message"
+              name="user_Message"
               className="p-2 ml-5 mt-10 w-[290px] h-[150px] md:w-[710px] lg:w-[925px] xl:w-[620px]"
             ></textarea>
           </div>
