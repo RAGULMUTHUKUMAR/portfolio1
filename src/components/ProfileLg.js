@@ -18,14 +18,14 @@ const ProfileLg = () => {
         />
         <h1 className="text-2xl font-bold">RAGUL M</h1>
         <Typed
-          strings={["Web Developer", "Full-Stack Developer", "UI/UX Designer"]}
+          strings={["UI/UX Designer", "Front-End Developer","React Developer" ]}
           typeSpeed={50}
           backSpeed={25}
           loop
           className="text-[#F26649] text-2xl font-semibold"
         />
         <p className=" ">
-          I'm a passionate Full-Stack Developer with a knack for crafting
+          I'm a passionate UI/UX Developer with a knack for crafting
           seamless digital experiences.
         </p>
         <div className="flex gap-[50px] text-3xl">

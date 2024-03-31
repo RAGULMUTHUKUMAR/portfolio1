@@ -4,7 +4,7 @@ function Home({ home }) {
       <div className="flex flex-col gap-1 justify-start mt-[150px] items-center  h-[700px] bg-[#F5F3EB]">
         <h1 className="text-4xl font-bold ">Hi I'm RAGUL </h1>
         <p className="text-sm text-center p-5 text-gray-500">
-          I'm a FullStack Developer and web designer creating awesome and
+          I'm a UI/UX Developer and web designer creating awesome and
           effective visual identities for companies.
         </p>
         <a href="mailto:ragulluar4@gmail.com">

@@ -36,9 +36,7 @@ const Profile = ({ profile, setProfile }) => {
               <h1 className="text-3xl font-bold">RAGUL M</h1>
               <Typed
                 strings={[
-                  "Web Developer",
-                  "Full-Stack Developer",
-                  "UI/UX Designer",
+                  "UI/UX Designer", "Front-End Developer","React Developer" 
                 ]}
                 typeSpeed={50}
                 backSpeed={25}
@@ -46,7 +44,7 @@ const Profile = ({ profile, setProfile }) => {
                 className="text-[#F26649] text-2xl font-semibold"
               />
               <p className="text-center text-xs p-2">
-                I'm a passionate Full-Stack Developer with a knack for crafting
+                I'm a passionate UI/UX Developer with a knack for crafting
                 seamless digital experiences.
               </p>
               <div className="flex gap-[50px] text-3xl">

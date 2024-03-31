@@ -8,6 +8,7 @@ import node from "../images/nodejs.png"
 import mongodb from "../images/mongodb.png"
 import figma from "../images/figma1.png"
 import git from "../images/git.png"
+import Adobe from "../images/Adobe.png"
 
 
 const skills = [
@@ -37,7 +38,7 @@ const skills = [
 },
 {
     id:7,
-    skill:node
+    skill:figma
 },
 {
     id:8,
@@ -45,11 +46,15 @@ const skills = [
 },
 {
     id:9,
-    skill:figma
+    skill:node
 },
 {
     id:10,
     skill:git
+},
+{
+    id:11,
+    skill:Adobe
 },
 ]
 

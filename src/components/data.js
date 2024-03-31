@@ -6,6 +6,9 @@ import UIUX1 from "../images/Desktop - 1.jpg";
 import webdesign1 from "../images/Restarent.png";
 import newspaper from "../images/newspaper.png";
 import UIUX2 from "../images/Group 7.png"
+import UIUX3 from "../images/hoops1.png"
+import UIUX4 from "../images/products.png"
+import UIUX5 from "../images/App2.png"
 
 const Data = [
   {
@@ -74,6 +77,36 @@ const Data = [
     Tool: "Figma",
     git: "https://www.figma.com/file/qHszqF5Y9txGuGEpGTjLGJ/boombox?type=design&node-id=0%3A1&mode=design&t=1PxranZffJ1vN9lf-1"
   },
+  {
+    id: 9,
+    Category: "uiuxdesign",
+    skills: "UI/UX",
+    url: "https://www.figma.com/file/lyez90hRe5SNLco4LGAzT4/Basket-Ball?type=design&node-id=0%3A1&mode=design&t=6TddXEU66aeJwkhj-1",
+    Image: UIUX3,
+    Tool: "Figma",
+    git: "https://www.figma.com/file/lyez90hRe5SNLco4LGAzT4/Basket-Ball?type=design&node-id=0%3A1&mode=design&t=6TddXEU66aeJwkhj-1"
+
+  },
+  {
+    id: 10,
+    Category: "uiuxdesign",
+    skills: "UI/UX",
+    url: "https://www.figma.com/proto/usD5whTw6vmq6HrHCsf74a/thee-Thalapathy?page-id=0%3A1&type=design&node-id=22-421&viewport=-181%2C996%2C0.13&t=nTPlv2zvlcsW8xP6-1&scaling=scale-down-width&starting-point-node-id=22%3A421&mode=design",
+    Image: UIUX4,
+    Tool: "Figma",
+    git: "https://www.figma.com/file/usD5whTw6vmq6HrHCsf74a/thee-Thalapathy?type=design&node-id=0%3A1&mode=design&t=Qw3Tj19EDt7jATIX-1"
+
+  },
+  {
+    id: 11,
+    Category: "uiuxdesign",
+    skills: "UI/UX",
+    url: "https://www.figma.com/proto/HJvRrfk7huIfeGCFM7uyE7/E-Books?page-id=0%3A1&type=design&node-id=11-248&viewport=290%2C129%2C0.07&t=yIPQdhD5StviRt9R-1&scaling=scale-down&starting-point-node-id=4%3A21&mode=design",
+    Image: UIUX5,
+    Tool: "Figma",
+    git: "https://www.figma.com/file/HJvRrfk7huIfeGCFM7uyE7/E-Books?type=design&node-id=0%3A1&mode=design&t=kdzTLsVwS8CKaBjl-1"
+
+  }
 ];
 
 export default Data;
