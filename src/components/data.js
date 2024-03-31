@@ -81,7 +81,7 @@ const Data = [
     id: 9,
     Category: "uiuxdesign",
     skills: "UI/UX",
-    url: "https://www.figma.com/file/lyez90hRe5SNLco4LGAzT4/Basket-Ball?type=design&node-id=0%3A1&mode=design&t=6TddXEU66aeJwkhj-1",
+    url: "https://vprshoopsacademy.org/",
     Image: UIUX3,
     Tool: "Figma",
     git: "https://www.figma.com/file/lyez90hRe5SNLco4LGAzT4/Basket-Ball?type=design&node-id=0%3A1&mode=design&t=6TddXEU66aeJwkhj-1"
